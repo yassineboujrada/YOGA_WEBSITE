@@ -1,0 +1,76 @@
+body
+{
+
+    nav
+    {
+        margin-bottom: -4.4rem;
+    }
+
+
+    //Heading Settigns
+    h1,h2
+    {
+        font-family: 'Fredoka', sans-serif;
+    }
+    .slide-section, .cta-section
+    {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 56.25rem;
+    }
+
+    .cta-section
+    {
+        height: auto;
+    }
+
+    .number-icon
+    {
+        @extend
+            .d-flex,
+            .rounded-circle,
+            .align-items-center,
+            .justify-content-center,
+            .border,
+            .border-primary,
+            .border-3,
+            .mb-3;
+
+        width: 6.25rem;
+        height: 6.25rem;
+
+        span
+        {
+            font-size: 4rem;
+        }
+    }
+    //Classes Section Tabs
+    .tabs-container-classes
+    {
+        .nav-item
+        {
+            .nav-link
+            {
+
+                &.active
+                {
+                    @extend
+                        .text-primary;
+                }
+
+                border-radius: 0.875rem;
+                @extend
+                    .fw-bold,
+                    .text-dark;
+            }
+        }
+    }
+
+    footer
+    {
+        .footer-nav-row
+        {
+            border-bottom-color: $gray-500;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+//Bootstrap Default Colors
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+
+//Theme Colors
+$primary:       #5F6F52;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         #F6F9FC;
+$dark:          $gray-800;
+
+//Font Declaration
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+//Par Settings
+$line-height-lg: 2.125rem;
+
+//Base Body Settings
+$body-color: $gray-800;
+
+//Form /Button Settings
+$input-btn-padding-y: .375rem ;
+$input-btn-padding-x: .75rem ;
+
+//Form / Button Settings 
+$input-btn-padding-y: .62rem;
+$input-btn-padding-x: 1rem;
+$btn-font-weight:$font-weight-medium;
+
+//Nav Settings
+$nav-link-font-weight:$font-weight-medium;
+$navbar-nav-link-padding-x:1.5rem;
+
+//Buttons
+$input-btn-padding-y-lg:      1rem;
+$input-btn-padding-x-lg:      1.5rem;
+$input-btn-padding-y-sm:      .65rem;
+$input-btn-padding-x-sm:      1rem;
+$btn-border-radius-sm: 0.625rem;
+
+$btn-border-radius:.48rem;
+$btn-border-radius-sm:.58rem;
+$btn-border-radius-lg:.58rem;
+
+//Misc
+$enable-negative-margins: true;
+$enable-shadows: true;
+
+//Spacing
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 10
+);
+
+//Radius Settings
+$border-radius-lg:1.875rem;
+
+//Shaddow
+$box-shadow-lg:-1.329px 1.29px 3.148px 0px rgba(0, 0, 0, 0.03), -5.846px 5.676px 6.519px 0px rgba(0, 0, 0, 0.04), -14.349px 13.932px 13px 0px rgba(0, 0, 0, 0.05), -27.635px 26.832px 25.481px 0px rgba(0, 0, 0, 0.07), -46.502px 45.15px 46.852px 0px rgba(0, 0, 0, 0.08), -71.746px 69.66px 80px 0px rgba(0, 0, 0, 0.11);
+
+//Tab Settings
+$nav-tabs-link-active-border-color: $primary;
+$nav-tabs-link-active-color:$primary;
+$nav-tabs-border-radius:0.875rem;
+$nav-tabs-border-width:0.1333rem;
+$nav-tabs-link-hover-border-color: transparent;
