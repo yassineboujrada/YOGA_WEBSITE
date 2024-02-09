@@ -4,6 +4,9 @@ This project is based on this figma design <a href="https://www.figma.com/commun
 
 So in general This repo contains the source code and files for the Yoga and Fitness Studio website, a Flask-based web project that showcases a yoga and fitness studio and its services. This website is a complete and modern Html, SCSS, Bootstrap based site.
 
+<img src="https://github.com/yassineboujrada/YOGA_WEBSITE/blob/main/look/web.png" alt ="img preview" />
+
+
 <h2>Technologies Used</h2>
 
 <p>This project is built using the following technologies:</p>
