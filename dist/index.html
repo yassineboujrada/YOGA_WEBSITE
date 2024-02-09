@@ -48,6 +48,28 @@
             </div>
           </div>
         </nav>
+
+        <!--------------    NAVBAR SECTION  ------------------------->
+        <section class="p-7 slide-section" style="background-image: url({{ url_for('static', filename='img/hero-slide.webp') }});">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                <h1 class="display-3 mb-5">Yoga First <span class="d-block">Fitness Always</span></h1>
+                <p class="pe-lg-4 lh-lg fs-5 mb-5">
+                    Welcome to Great Fitness, Los Angeles' premier destination for yoga and fitness enthusiasts.
+                    Nestled in the vibrant heart of the city, we offer a sanctuary where mind, body, and spirit align.
+                </p>
+                <div class="d-flex flex-column flex-lg-row gap-3 align-items-center">
+                    <a href="#" class="btn btn-primary btn-lg fw-bold border-0">Book A Session</a>
+                    <a href="#" class="btn btn-transparent btn-lg d-flex align-items-center gap-3 fw-bold border-0 shadow-none">
+                    <span class="lh-1 mt-n1">Contact Us</span>
+                    <img src="{{ url_for('static' , filename='/img/ArrowRight.svg') }}" width="25px" height="25px" alt="Contact Us Arrow Right" />
+                    </a>
+                </div>
+                </div>
+            </div>
+          </div>
+        </section>
         
     </body>
 </html>
